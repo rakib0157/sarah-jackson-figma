@@ -1,0 +1,510 @@
+/*=========================== Responsive design start ============================*/
+@media screen and (min-width: 1153px) and (max-width:1440px) {
+    .content-container {
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    /* about sixty start  */
+    #about-sixty {
+        width: 100%;
+        height: 818px;
+        margin: 140px 0px;
+    }
+
+    /* about sixty start  */
+
+    /* get in touch start  */
+    #get-in-touch {
+        padding: 100px 32px;
+        width: 100%;
+    }
+
+    /* get in touch end  */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+    .content-container {
+        max-width: 1088px;
+        margin: 0 auto;
+    }
+
+    #about-sixty {
+        width: 100%;
+        height: 818px;
+        margin: 140px 0px;
+    }
+
+    /* what i do section start*/
+
+    .what-i-do-container {
+        width: 100%;
+        height: 613px;
+        margin: 140px 0px;
+    }
+
+    .what-ido-card-container {
+        gap: 32px;
+    }
+
+    .what-i-do-card {
+        background-color: #d6d6d6;
+        width: 341px;
+        height: auto;
+    }
+
+    .what-i-do-card-select {
+        width: 341px;
+        height: auto;
+    }
+
+    /* what i do section end  */
+
+    /* portfolio section start  */
+    #portfolio {
+        max-width: 1088px;
+        height: auto;
+    }
+
+    /* portfolio section end  */
+
+    /* testimonial section start  */
+    #testimonial {
+        width: 100%;
+        height: auto;
+    }
+
+    .client-container {
+        gap: 60px;
+        margin: 150px 0px;
+
+    }
+
+    .left-client img {
+        width: 486px;
+    }
+
+    .right-client {
+        width: 542px;
+    }
+
+    .testimonial-para {
+        font-size: 32px;
+    }
+
+    .rotate-img-container {
+        text-align: right;
+    }
+
+    .client-name-container {
+        margin: 160px 0px;
+    }
+
+    /* testimonial section end  */
+
+    /* Project count start */
+    #project-count {
+        height: 516px;
+        width: 100%;
+
+    }
+
+    .project-count-container {
+        margin: 47px 150px;
+    }
+
+    .project-count-content {
+        display: flex;
+    }
+
+    .count-card {
+        text-align: center;
+        width: 272px;
+        height: 116px;
+    }
+
+    /* Project count end */
+
+    /* Blog section start */
+
+    .blog-card-container {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .blog-card {
+        height: auto;
+        width: 341px;
+    }
+
+    .blog-card-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-details {
+        height: 214px;
+    }
+
+    /* Blog section end */
+
+    /* Hire me section start */
+
+    .hire-me-container {
+        width: 100%;
+        height: 690px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .left-hire-content {
+        width: 433px;
+        height: 100%;
+    }
+
+    .right-hire-content {
+        width: 505px;
+        height: 100%;
+        padding: 80px 60px;
+    }
+
+    .hire-me-para {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .footer-container {
+        margin: 80px 0px;
+    }
+
+    .footer-container>p {
+        font-size: 14px;
+    }
+
+    /* Hire me section end */
+
+}
+
+@media screen and (min-width:321px) and (max-width: 768px) {
+    .content-container {
+        /* max-width: 768px; */
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+
+    /* banner section start  */
+    #banner {
+        width: 100%;
+        margin-top: 120px;
+
+    }
+
+    .banner-container {
+        /* display: flex; */
+        flex-direction: column;
+        /* gap: 71px; */
+        /* color: #333333; */
+    }
+
+    /* .left-banner {
+        flex: 0;
+    } */
+
+    .left-banner>h2 {
+        font-size: 74px;
+        font-weight: 400;
+
+    }
+
+    .hello {
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .left-banner>h3 {
+        font-size: 40px;
+        font-weight: 400;
+        padding: 20px 0px;
+    }
+
+    .right-banner>img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .banner-social {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    /* banner section end  */
+
+    /* about sixty start  */
+    #about-sixty {
+        width: 100%;
+        height: auto;
+        margin: 140px 0px;
+    }
+
+    .about-sixti-image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .workme-image {
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    .playbtn {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+    }
+
+    /* about sixty end  */
+
+    /* what i do section start */
+
+    .what-i-do-container {
+        width: 100%;
+        height: auto;
+        margin: 140px 0px;
+    }
+
+    .what-ido-card-container {
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .what-i-do-card {
+        width: 100%;
+        height: 409px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .what-i-do-card-select {
+        width: 100%;
+        height: 409px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .what-i-do-card-button {
+        width: fit-content;
+    }
+
+    /* what i do section end  */
+
+    /* portfolio section start */
+
+    #portfolio {
+        width: 100%;
+    }
+
+    .portfolio-img-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+
+    }
+
+    .portfolio-img-container>div>img {
+        height: 560px;
+    }
+
+    /* portfolio section end */
+
+    /* Testimonial Section start */
+
+    #testimonial {
+        width: 100%;
+    }
+
+    .client-container {
+        flex-direction: column;
+        gap: 60px;
+        margin: 120px 0px;
+
+    }
+
+    .left-client {
+        text-align: center;
+    }
+
+    .left-client img {
+        width: 80%;
+        height: 434px;
+    }
+
+    .right-client {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonial-para {
+        font-size: 32px;
+    }
+
+    .client-name-container {
+        margin: 80px 0px;
+    }
+
+    /* Testimonial Section end */
+
+    /* Get in touch start */
+    #get-in-touch {
+        padding: 10px 20px;
+        height: 591px;
+    }
+
+    .get-in-touch-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        width: 80%;
+    }
+
+    /* Get in touch end */
+
+    /* Project count start */
+
+    #project-count {
+        width: 100%;
+        /* height: 316px; */
+        height: auto;
+    }
+
+    .project-count-container {
+        height: 100%;
+        margin: 47px 16px;
+
+    }
+
+    .project-count-content {
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+
+    .count-card {
+        width: 182px;
+        height: 80px;
+    }
+
+    .count-heading {
+        font-size: 40px;
+    }
+
+    .count-p {
+        font-size: 18px;
+    }
+
+    /* Project count end */
+
+    /* Blog section start */
+
+    .blog-card-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .blog-card-image {
+        width: 100%;
+        height: 367px;
+    }
+
+    .card-details {
+        height: 226px;
+    }
+
+    /* Blog section end */
+
+    /* Hire me section start */
+    #hire-me-section {
+        height: auto;
+        border: none;
+
+    }
+
+    .hire-me-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .hire-me-content-container {
+        height: auto;
+        margin-top: 70px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .left-hire-content {
+        width: 100%;
+        height: 100%;
+        gap: 60px;
+    }
+
+    .right-hire-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hire-me-para {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 24px;
+        margin: 70px;
+        text-align: center;
+    }
+
+    .footer-container>p {
+        font-size: 14px;
+    }
+
+    .footer-icons-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    /*==================== Hire me section end  ==================*/
+}
+
+/*=========================== Responsive design end ============================*/

@@ -1,0 +1,556 @@
+/*============ common css for some element start  =============*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.content-container {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.common-section-heading {
+    font-size: 54px;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+
+/*============ common css for some element end  =============*/
+
+/*============= top-header area start  ===============*/
+.top-header-container {
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-brand {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.nav-search-icon>i {
+    font-size: 24px;
+    color: #333333;
+}
+
+.brand-name {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/*============= top-header area end  ===================*/
+
+/*============= Banner section start  ===================*/
+
+#banner {
+    max-width: 1520px;
+    margin-top: 100px;
+    
+}
+
+.banner-container {
+    display: flex;
+    gap: 71px;
+    color: #333333;
+}
+
+.left-banner {
+    flex: 2;
+}
+
+.left-banner>h2 {
+    font-size: 74px;
+    font-weight: 400;
+    
+}
+
+.hello {
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.left-banner>h3 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.banner-para {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.right-banner>img {
+    flex: 1;
+    width: 550px;
+    height: 640px;
+    object-fit: cover;
+}
+
+.banner-footer {
+    height: 65px;
+    margin-top: 56px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.banner-social {
+    display: flex;
+    gap: 32px;
+    font-size: 20px;
+    flex: 1;
+    
+}
+
+.scroll {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    
+}
+/*============= Banner section end  ===================*/
+
+/*====================== about sixty start  ==========================*/
+
+
+#about-sixty {
+    max-width: 1520px;
+    height: 818px;
+    margin: 140px 30px;
+}
+
+.aboutme-sixti-heading {
+    font-size: 36px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.about-sixti-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.workme-image {
+    width: 1262px;
+    height: 715px;
+    margin-top: 60px;
+}
+
+.playbtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+
+}
+
+/*===================== about sixty end  ==================*/
+
+/*==================== what i do section start  ================*/
+
+.what-i-do-container {
+    max-width: 1520px;
+    height: 613px;
+    margin: 140px 110px;
+}
+
+.what-ido-card-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.what-i-do-card {
+    background-color: #d6d6d6;
+    width: 380px;
+    height: 409px;
+    padding: 20px 40px;
+    color: #333333;
+}
+
+.what-i-do-card-select {
+    background-color: #333333;
+    width: 380px;
+    height: 409px;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+
+.what-i-do-card-heading {
+    font-size: 46px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.what-i-do-card-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.what-i-do-card-button {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 60px;
+    background: transparent;
+}
+
+/*==================== what i do section end  ================*/
+
+/*==================== portfolio section start  ==================*/
+
+#portfolio {
+    max-width: 1520px;
+}
+
+.portfolio-container {
+    margin: 140px 0px;
+}
+
+.portfolio-skill {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.portfolio-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+
+}
+
+.portfolio-img-container>div {
+    width: 100%;
+}
+
+.portfolio-img-container>div>img {
+    width: 100%;
+    height: auto;
+}
+
+.p-img-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+
+/*==================== portfolio section end  ==================*/
+
+/*==================== Testimonial Section start  ==================*/
+#testimonial {
+    max-width: 1520px;
+}
+
+.client-container {
+    display: flex;
+    gap: 100px;
+    margin: 100px 0px;
+
+}
+
+.left-client img {
+    width: 486px;
+    height: 589px;
+}
+
+.right-client {
+    width: 934px;
+    height: 589px;
+}
+
+.rotate-img {
+    transform: rotate(180deg);
+}
+
+.testimonial-para {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.rotate-img-container {
+    text-align: right;
+}
+
+.client-name-container {
+    margin: 160px 0px;
+}
+
+.client-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*==================== Testimonial Section end  ==================*/
+/*==================== Get in touch start  ==================*/
+#get-in-touch {
+    background-color: #363434;
+    padding: 100px 200px;
+    height: 591px;
+}
+
+.get-in-touch-container {
+    background-image: url(./images/Hello.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+.get-in-touch-content {
+    text-align: center;
+}
+
+.get-heading {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.get-contact-btn {
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.gcbtn {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    font-size: 28px;
+    font-weight: 400;
+    border: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    margin: 0 auto;
+}
+
+/*==================== Get in touch end  ==================*/
+/*==================== Project count start  ==================*/
+#project-count {
+    height: 516px;
+
+}
+
+.project-count-container {
+    height: 356px;
+    margin: 47px 150px;
+    background-image: url(./images/Project.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-count-content {
+    display: flex;
+}
+
+.count-card {
+    text-align: center;
+    width: 316px;
+    height: 116px;
+}
+
+.count-heading {
+    color: #333333;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.count-p {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*==================== Project count end  ==================*/
+/*==================== Blog section start  ==================*/
+#blog-section {
+    padding: 50px 0px;
+}
+
+.blog-card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1291px;
+    margin: 60px auto;
+}
+
+.blog-card {
+    background-color: #333333;
+    width: 380px;
+}
+
+.blog-card-image {
+    height: 337px;
+}
+
+.card-details {
+    height: 214px;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-details p {
+    font-weight: 400;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bbtn {
+    width: fit-content;
+    font-size: 18px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+}
+
+/*==================== Blog section end  ==================*/
+
+/*==================== Hire me section start  ==================*/
+#hire-me-section {
+    height: 910px;
+    border: 1px solid white;
+
+}
+
+.hire-me-container {
+    width: 1262px;
+    height: 690px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.hire-me-content-container {
+    height: 546px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-hire-content {
+    width: 607px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-hire-content {
+    width: 505px;
+    height: 100%;
+    background-color: #333333;
+    padding: 80px 60px;
+}
+
+.hire-me-para {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    color: #333333;
+    margin-top: 60px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+address p {
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.form-label {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+}
+
+.inputs {
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 16px 0px;
+    color: #ffffff;
+    border: none;
+}
+
+.form-btn-position {
+    text-align: right;
+}
+
+.form-btn {
+    padding: 16px 40px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: none;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 70px;
+}
+
+.footer-container>p {
+    font-size: 14px;
+}
+
+.footer-icons-container {
+    display: flex;
+    gap: 80px;
+
+}
+
+/*==================== Hire me section end  ==================*/
